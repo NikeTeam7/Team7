@@ -2,7 +2,7 @@ var runningEndpoint = '/v1/me/sport/activities/1',
     options = {
       method: 'GET',
       success: storeUserActivityDetails
-    
+
     },
     userDetailsObj = {
       activity: '',
@@ -37,5 +37,3 @@ function activityToPoints() {
     userDetailsObj.points = 5;
   }
 }
-
-
