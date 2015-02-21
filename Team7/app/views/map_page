@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>KidQuest - Home Map</title>
+<link href="nikeHack.css" rel="stylesheet">
+
+<div id="page">
+  <header>
+    <div id="title">
+      KidsQuest
+    </div>
+    <div id="logout" class="link">
+      Log out
+    </div>
+    <div id="Maps" class="link">
+      Choose Map
+    </div>
+  </header>
+  <div class="title2">
+    <div id="name">
+      Hello Alanista! 
+    </div>
+    <div id="coins">
+      Total Gold Coins: 345
+    </div>
+  </div>
+  <div id="rightcolumn">
+    <ul>
+      <li class="firstelement"> GROUPS
+      <li> Hillside Elementary
+      <li> Adventure Scouts
+      <li> Treehouse Treasure Island
+      <li> Nike+
+    </ul>
+    <ul>
+      <li class="firstelement"> FRIENDS
+      <li> Jackie Chan
+      <li> Bruce Lee
+      <li> Happenstance McGee
+      <li> Bitsy McClain
+      <li> Tera Byten
+
+        <div id="nikeplus">
+        </div>
+      </li>
+    </ul>
