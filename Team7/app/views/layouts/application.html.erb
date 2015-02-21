@@ -9,6 +9,15 @@
 <body>
 
 <%= yield %>
-
+<script>
+(function(){
+  var np,nid="nikeplus-sdk",d=document,
+  es=d.getElementsByTagName("script")[0];
+  if (d.getElementById(nid)) {return;}
+    np=d.createElement("script");np.id=nid;
+    np.src="https://s3.nikecdn.com/nikeplus/js/v2/jssdk.min.js";
+    es.parentNode.insertBefore(np,es);
+  })();
+  </script>
 </body>
 </html>
